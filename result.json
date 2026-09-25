@@ -1,0 +1,155 @@
+[
+  {
+    "name": "Argentina",
+    "population": 43590400,
+    "currencies": [{ "code": "ARS", "name": "Argentine peso", "symbol": "$" }]
+  },
+  {
+    "name": "Bolivia (Plurinational State of)",
+    "population": 10985059,
+    "currencies": [
+      { "code": "BOB", "name": "Bolivian boliviano", "symbol": "Bs." }
+    ]
+  },
+  {
+    "name": "Brazil",
+    "population": 206135893,
+    "currencies": [{ "code": "BRL", "name": "Brazilian real", "symbol": "R$" }]
+  },
+  {
+    "name": "Canada",
+    "population": 36155487,
+    "currencies": [{ "code": "CAD", "name": "Canadian dollar", "symbol": "$" }]
+  },
+  {
+    "name": "Chile",
+    "population": 18191900,
+    "currencies": [{ "code": "CLP", "name": "Chilean peso", "symbol": "$" }]
+  },
+  {
+    "name": "Colombia",
+    "population": 48759958,
+    "currencies": [{ "code": "COP", "name": "Colombian peso", "symbol": "$" }]
+  },
+  {
+    "name": "Costa Rica",
+    "population": 4890379,
+    "currencies": [
+      { "code": "CRC", "name": "Costa Rican colón", "symbol": "₡" }
+    ]
+  },
+  {
+    "name": "Cuba",
+    "population": 11239004,
+    "currencies": [
+      { "code": "CUC", "name": "Cuban convertible peso", "symbol": "$" },
+      { "code": "CUP", "name": "Cuban peso", "symbol": "$" }
+    ]
+  },
+  {
+    "name": "Dominican Republic",
+    "population": 10075045,
+    "currencies": [{ "code": "DOP", "name": "Dominican peso", "symbol": "$" }]
+  },
+  {
+    "name": "Ecuador",
+    "population": 16545799,
+    "currencies": [
+      { "code": "USD", "name": "United States dollar", "symbol": "$" }
+    ]
+  },
+  {
+    "name": "El Salvador",
+    "population": 6520675,
+    "currencies": [
+      { "code": "USD", "name": "United States dollar", "symbol": "$" }
+    ]
+  },
+  {
+    "name": "Guatemala",
+    "population": 16176133,
+    "currencies": [
+      { "code": "GTQ", "name": "Guatemalan quetzal", "symbol": "Q" }
+    ]
+  },
+  {
+    "name": "Haiti",
+    "population": 11078033,
+    "currencies": [{ "code": "HTG", "name": "Haitian gourde", "symbol": "G" }]
+  },
+  {
+    "name": "Honduras",
+    "population": 8576532,
+    "currencies": [{ "code": "HNL", "name": "Honduran lempira", "symbol": "L" }]
+  },
+  {
+    "name": "Jamaica",
+    "population": 2723246,
+    "currencies": [{ "code": "JMD", "name": "Jamaican dollar", "symbol": "$" }]
+  },
+  {
+    "name": "Mexico",
+    "population": 122273473,
+    "currencies": [{ "code": "MXN", "name": "Mexican peso", "symbol": "$" }]
+  },
+  {
+    "name": "Nicaragua",
+    "population": 6262703,
+    "currencies": [
+      { "code": "NIO", "name": "Nicaraguan córdoba", "symbol": "C$" }
+    ]
+  },
+  {
+    "name": "Panama",
+    "population": 3814672,
+    "currencies": [
+      { "code": "PAB", "name": "Panamanian balboa", "symbol": "B/." },
+      { "code": "USD", "name": "United States dollar", "symbol": "$" }
+    ]
+  },
+  {
+    "name": "Paraguay",
+    "population": 6854536,
+    "currencies": [
+      { "code": "PYG", "name": "Paraguayan guaraní", "symbol": "₲" }
+    ]
+  },
+  {
+    "name": "Peru",
+    "population": 31488700,
+    "currencies": [{ "code": "PEN", "name": "Peruvian sol", "symbol": "S/." }]
+  },
+  {
+    "name": "Puerto Rico",
+    "population": 3474182,
+    "currencies": [
+      { "code": "USD", "name": "United States dollar", "symbol": "$" }
+    ]
+  },
+  {
+    "name": "Trinidad and Tobago",
+    "population": 1349667,
+    "currencies": [
+      { "code": "TTD", "name": "Trinidad and Tobago dollar", "symbol": "$" }
+    ]
+  },
+  {
+    "name": "United States of America",
+    "population": 323947000,
+    "currencies": [
+      { "code": "USD", "name": "United States dollar", "symbol": "$" }
+    ]
+  },
+  {
+    "name": "Uruguay",
+    "population": 3480222,
+    "currencies": [{ "code": "UYU", "name": "Uruguayan peso", "symbol": "$" }]
+  },
+  {
+    "name": "Venezuela (Bolivarian Republic of)",
+    "population": 31028700,
+    "currencies": [
+      { "code": "VEF", "name": "Venezuelan bolívar", "symbol": "Bs F" }
+    ]
+  }
+]
