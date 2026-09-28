@@ -3,9 +3,7 @@ package ru.academits.Excel;
 import org.apache.poi.ss.usermodel.*;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.OutputStream;
+import java.io.*;
 import java.util.ArrayList;
 import java.util.Arrays;
 
@@ -71,7 +69,7 @@ public class Main {
             wb.write(fileOut);
             System.out.println("Файл успешно сохранен");
         } catch (IOException e) {
-            throw new RuntimeException(e);
+            throw new RuntimeException("Ошибка при сохранеии файла");
         }
     }
 }
