@@ -12,22 +12,22 @@ public class Main {
         ObjectMapper mapper = new ObjectMapper();
 
         try {
-            List<Countries> countries = mapper.readValue(new File("src/main/resources/countries.json"), new TypeReference<List<Countries>>() {
+            List<County> countries = mapper.readValue(new File("src/main/resources/countries.json"), new TypeReference<List<County>>() {
             });
 
             int sumPopulation = 0;
 
-            for (Countries country : countries) {
-                sumPopulation += country.population;
+            for (County country : countries) {
+                sumPopulation += country.getPopulation();
             }
 
             System.out.println("Суммарная численность стран = " + sumPopulation);
 
-            List<Countries.Currency> uniqueCurrencies = new ArrayList<>();
+            List<Currency> uniqueCurrencies = new ArrayList<>();
 
-            for (Countries country : countries) {
-                if (country.currencies != null) {
-                    for (Countries.Currency currency : country.currencies) {
+            for (County country : countries) {
+                if (country.getCurrencies() != null) {
+                    for (Currency currency : country.getCurrencies()) {
                         if (!uniqueCurrencies.contains(currency)) {
                             uniqueCurrencies.add(currency);
                         }
@@ -37,10 +37,10 @@ public class Main {
 
             System.out.println("Перечень всех валют:" + uniqueCurrencies);
 
-            List<Countries> largeCountries = new ArrayList<>();
+            List<County> largeCountries = new ArrayList<>();
 
-            for (Countries country : countries) {
-                if (country.population >= 1000000) {
+            for (County country : countries) {
+                if (country.getPopulation() >= 1000000) {
                     largeCountries.add(country);
                 }
             }
