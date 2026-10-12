@@ -1,4 +1,4 @@
-package ru.academits.CountriesJSON;
+package ru.academits.countries_json;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;

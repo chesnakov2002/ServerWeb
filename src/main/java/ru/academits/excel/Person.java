@@ -1,17 +1,15 @@
-package ru.academits.Excel;
-
-import java.util.Objects;
+package ru.academits.excel;
 
 public class Person {
     private int age;
     private String name;
-    private String Surname;
+    private String surname;
     private String phoneNumber;
 
     public Person(int age, String name, String surname, String phoneNumber) {
         this.age = age;
         this.name = name;
-        this.Surname = surname;
+        this.surname = surname;
         this.phoneNumber = phoneNumber;
     }
 
@@ -32,11 +30,11 @@ public class Person {
     }
 
     public String getSurname() {
-        return Surname;
+        return surname;
     }
 
     public void setSurname(String surname) {
-        Surname = surname;
+        this.surname = surname;
     }
 
     public String getPhoneNumber() {
@@ -52,20 +50,8 @@ public class Person {
         return "Person{" +
                 "age=" + age +
                 ", name='" + name + '\'' +
-                ", Surname='" + Surname + '\'' +
+                ", Surname='" + surname + '\'' +
                 ", phoneNumber='" + phoneNumber + '\'' +
                 '}';
-    }
-
-    @Override
-    public boolean equals(Object o) {
-        if (o == null || getClass() != o.getClass()) return false;
-        Person person = (Person) o;
-        return age == person.age && Objects.equals(name, person.name) && Objects.equals(Surname, person.Surname) && Objects.equals(phoneNumber, person.phoneNumber);
-    }
-
-    @Override
-    public int hashCode() {
-        return Objects.hash(age, name, Surname, phoneNumber);
     }
 }

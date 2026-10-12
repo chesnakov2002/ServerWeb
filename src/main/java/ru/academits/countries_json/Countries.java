@@ -1,4 +1,4 @@
-package ru.academits.CountriesJSON;
+package ru.academits.countries_json;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
